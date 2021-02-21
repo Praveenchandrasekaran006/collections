@@ -15,6 +15,7 @@ public class HashMapSample {
 		
 		System.out.println("The Id of praveen is: "+hm.get("praveen"));
 		
+		//ArrayList<String> keys = new ArrayList<String>();
 		Set<String> keys = hm.keySet();
 		for(String name : keys)
 		{

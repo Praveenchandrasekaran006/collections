@@ -1,11 +1,12 @@
 package collectionframework;
 import java.util.*;
+import java.lang.*;
 import java.io.*;
 public class RandomSample {
 
 	public static void main(String args[])
 	{
-		Random r = new Random();
+		Random a = new Random();
 		
 		System.out.println("Enter the size of the random array: ");
 		Scanner in = new Scanner(System.in);
@@ -16,11 +17,12 @@ public class RandomSample {
 			in.next();
 		}
 		int arr_size = in.nextInt();
+		int max = arr_size/2;
 		
 		int arr[] = new int[arr_size];
 		for(int iterator=0; iterator<arr_size; iterator++)
 		{
-			arr[iterator] = r.nextInt(arr_size+50);
+			arr[iterator] = a.nextInt(arr_size/2);
 		}
 		
 		System.out.println("The random array is:");
@@ -30,3 +32,6 @@ public class RandomSample {
 		}
 	}
 }
+//1 to 5 random
+//other than random
+// random values even distribution 

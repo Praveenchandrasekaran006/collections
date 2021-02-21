@@ -24,11 +24,11 @@ public class ArrayListSample {
 		
 		
 	    
-		ArrayList<Integer> arr1 = new ArrayList<Integer>();
+		List<Integer> arr1 = new ArrayList<Integer>();
 		arr1.add(95);
 		arr1.add(27);
 		arr1.add(93);
-		arr1.add(44);
+		arr1.add(54);
 		arr1.add(56);
 		System.out.println("The unsorted list is:  "+arr1);
 		System.out.print("The Sorted list is: ");

@@ -6,7 +6,7 @@ public class DateSample {
 	public static void main(String args[]) throws ParseException 
 	{
 		String str = "Feb 15, 2021";
-		DateFormat format = new SimpleDateFormat("MMM dd, yyyy", Locale.ENGLISH);
+		SimpleDateFormat format = new SimpleDateFormat("MMM dd, yyyy", Locale.ENGLISH);
 		Date d = format.parse(str);
 		
 		String str1 = "Feb 17, 2021";
